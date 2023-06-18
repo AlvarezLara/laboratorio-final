@@ -1,0 +1,103 @@
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #a9fea9;
+    border-radius: 5px;
+}
+
+.required {
+    font-style: italic;
+    color: red;
+    font-size: smaller;
+    font-weight: lighter;
+    margin-left: 5px;
+}
+
+.title {
+    color: #333;
+    text-align: center;
+}
+
+.required-label {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    font-weight: bold;
+}
+
+.form-input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: 1px solid #f4e18d;
+    border-radius: 4px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-submit {
+    background-color: blue;
+    color: #fff;
+}
+
+.btn-consultar {
+    background-color: red;
+    color: #fff;
+}
+
+.error-message {
+    color: red;
+    font-weight: lighter;
+    font-size: x-small;
+    margin-top: 5px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+/* Estilos consulta */
+.record {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.record p {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+
+.record-title {
+    font-weight: bold;
+    color: steelblue;
+}
+
+.no-records,
+.with-errors,
+.with-no-errors{
+    font-style: italic;
+    color: gray;
+    text-align: center;
+}
+
+.error-list-item {
+    color: red;
+    font-weight: lighter;
+    font-size: small;
+    font-style: italic;
+    margin: 5px 0;
+    text-decoration: none;
+}
